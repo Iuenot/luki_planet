@@ -1,0 +1,685 @@
+.earth-main {
+}
+.l__earth-box-text {
+    text-decoration: double;
+    font-family: 'Space Mono';
+}
+.l__earth-box-h2{
+    text-decoration: double;
+    font-size: 200px;
+    color: aliceblue;
+    font-family: 'Protest Strike', sans-serif;
+}
+.l__earth-box {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+.l__earth-box1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 20px 20px;
+    background-image: url(./earth__back.jpeg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.l__moon-box1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 20px 20px;
+    background-image: url(https://assets.newatlas.com/dims4/default/53dbcd1/2147483647/strip/true/crop/1920x1080+0+0/resize/1920x1080!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Flunar-rec-orbiter-4.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.l__mars-box1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 20px 20px;
+    background-color: #000;
+    background-attachment: fixed;
+    justify-content: space-around;
+}
+.l__earth-box2_3-box{
+    display: flex;
+    flex-direction: column;
+}
+.l__mars-box2 {
+    display: flex;
+    width: 100%;
+    text-align: end;
+    padding: 20px;
+    background-color: #000;
+    justify-content: space-around;
+}
+.l__moon-box2{
+    display: flex;
+    width: 100%;
+    text-align: end;
+    padding: 20px;
+    justify-content: space-around;
+    margin-left: 60%;
+}
+.l__earth-box3 {
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://wallpapers.com/images/hd/rocket-ship-digital-art-n3t6ciesjist2mg3.jpg);
+    background-size:cover;
+    height:100vh;
+    background-attachment: fixed;
+    border: 1px solid #000;
+}
+.l__moon-box3{
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(./moon4k.jpeg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    background-attachment: fixed;
+}
+.l__mars-box3{
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/03/Planet%20Mars%204K%208k7206514365.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    height:100vh;
+}
+.l__venus-box3{
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://images.interestingengineering.com/1200x675/2022/08/15/image/jpeg/IImPlWObSFCcdSeM6RHjldfDKQPHjXku8VhwwLXD.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+.l__jupiter-box3{
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://images.alphacoders.com/132/thumb-1920-1328087.png);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+.l__uranus-box3{
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://rare-gallery.com/uploads/posts/1092086-digital-art-planet-space-space-art-circle-atmosphere-astronomy-Uranus-Lacza-screenshot-computer-wallpaper-atmosphere-of-earth-outer-space-astronomical-object.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    height:100vh;
+}
+.l__saturn-box3{
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://www.pixground.com/saturn-4k-wallpaper/?download-img=4k);
+    background-size:cover;
+    background-attachment: fixed;
+    height:100vh;
+}
+.l__mercury-box3{
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://cf.ltkcdn.net/horoscopes/images/orig/242953-1600x1065-planet-mercury.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+    height:100vh;
+}
+.l__earth-box3-box{
+    position: relative;
+}
+.l__rocket{
+}
+.l_1{
+    width: 40%;
+}
+.l_2{
+    color: aliceblue;
+}
+.l__rocket{
+}
+.l_3{
+    backdrop-filter: blur(10px) ;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.234);
+    margin-top: 1%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+.l__earth-box-img{
+    width: 40px;
+    right: 20px;
+    position: absolute;
+    top: 250px;
+    transform: rotate(40deg);
+    animation: l_anim1 10s linear infinite alternate;
+}
+.l__mars-box2-img{
+    width: 20%;
+}
+@keyframes l_anim1 {
+    100%{
+        transform: rotate(10deg);
+    }
+}
+.l__earth-box2-img{
+    width: 350px;
+    height: 100%;
+    margin-right: 40%;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .l__earth-box-h2{
+        font-size: 150px;
+    }
+    .l__earth-box3{
+        background-position: center;
+    }
+}
+@media screen and (max-width: 1002px) {
+    .l__earth-box-h2{
+        font-size: 80px;
+    }
+    .l_2{
+        font-size: 10px;
+    }
+    .l__earth-box2-img{
+        margin-right: 40px;
+    }
+    .l__earth-box-text{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .l__earth-box2-img{
+        width: 30%;
+    }
+    .l_3{
+        width: 80%;
+    }
+    .l_1{
+        width: 80%;
+    }
+    .l__moon-box2{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 390px){
+    .l__mars-box2-img{
+        display: none;
+    }
+}
+@media screen and (max-width: 320px){
+    .l__earth-box2-img{
+        display: none;
+    }
+}
+
+
+
+
+
+
+.y-fullskrin__block {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.y-fullskrin__text {
+    font-family: 'Work Sans';
+    font-size: 22px;
+    position: relative;
+    margin-left: 100px;
+    color: #000000;
+    font-weight: 800;
+}
+
+.y-fullskrin__text::before {
+    position: absolute;
+    content: '';
+    background-color: #000000;
+    width: 75px;
+    height: 3px;
+    bottom: 50%;
+    left: -100px;
+}
+
+.y-fullskrin__title {
+    color: #000;
+    font-family: 'Space Mono';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+
+.y-header__block {
+    display: none;
+}
+
+.y-fullskrin__button {
+    padding: 15px 25px;
+    font-family: 'Space Mono';
+    color: #000000;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #ffffff;
+    font-size: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.y-fullskrin__button:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.block {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.3);
+    background: linear-gradient(#a812b2, #e7a74e);
+    animation: border-transform 7s linear infinite;
+    transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
+        right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
+        transform 250ms 1100ms ease,
+        width 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1),
+        height 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        top: -15%;
+        right: -10%;
+}
+@keyframes border-transform {
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+    }
+}
+
+.block:nth-child(2) {
+    left: -10%;
+    top: 60%;
+    background: linear-gradient(#89e229, #a947e1);
+    animation: transform 5s linear infinite;
+}
+
+@keyframes transform {
+
+    0%,
+    100% {
+        border-radius: 53% 47% 44% 56% / 65% 38% 62% 55%;
+    }
+
+    14% {
+        border-radius: 50% 70% 34% 56% / 39% 50% 30% 61%;
+    }
+
+    28% {
+        border-radius: 44% 56% 48% 52% / 59% 60% 30% 41%;
+    }
+
+    42% {
+        border-radius: 51% 49% 65% 35% / 71% 28% 72% 29%;
+    }
+
+    56% {
+        border-radius: 71% 49% 77% 23% / 60% 40% 60% 20%;
+    }
+
+    70% {
+        border-radius: 40% 60% 44% 56% / 66% 58% 42% 34%;
+    }
+
+84% {
+        border-radius: 56% 64% 60% 40% / 45% 71% 49% 75%;
+    }
+}
+
+.section-center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 6;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+.menu-icon:checked+label,
+.menu-icon:not(:checked)+label {
+    position: fixed;
+    top: 63px;
+    right: 75px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.menu-icon:checked+label:before,
+.menu-icon:not(:checked)+label:before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 20px;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    border-top: 2px solid #ececee;
+    border-bottom: 2px solid #ececee;
+    transition: border-width 100ms 1500ms ease,
+        top 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1),
+        height 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1),
+        background-color 200ms ease,
+        transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu-icon:checked+label:after,
+.menu-icon:not(:checked)+label:after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 22px;
+    height: 2px;
+    z-index: 20;
+    top: 10px;
+    right: 4px;
+    background-color: #ececee;
+    margin-top: -1px;
+    transition: width 100ms 1750ms ease,
+        right 100ms 1750ms ease,
+        margin-top 100ms ease,
+        transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu-icon:checked+label:before {
+    top: 10px;
+    transform: rotate(45deg);
+    height: 2px;
+    background-color: #ececee;
+    border-width: 0;
+    transition: border-width 100ms 340ms ease,
+        top 100ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+        height 100ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+        background-color 200ms 500ms ease,
+        transform 200ms 1700ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu-icon:checked+label:after {
+    width: 30px;
+    margin-top: 0;
+    right: 0;
+    transform: rotate(-45deg);
+    transition: width 100ms ease,
+        right 100ms ease,
+        margin-top 100ms 500ms ease,
+        transform 200ms 1700ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.nav {
+    position: fixed;
+    top: 33px;
+    right: 50px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    z-index: 9;
+    overflow: hidden;
+    box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.3);
+    background-color: #000000;
+    animation: border-transform 7s linear infinite;
+    transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
+        right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
+        transform 250ms 1100ms ease,
+        width 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1),
+        height 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes border-transform {
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+    }
+}
+
+.menu-icon:checked~.nav {
+    animation-play-state: paused;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 200%;
+    height: 200%;
+    transition: top 350ms 700ms cubic-bezier(0.23, 1, 0.32, 1),
+        right 350ms 700ms cubic-bezier(0.23, 1, 0.32, 1),
+        transform 250ms 700ms ease,
+        width 750ms 1000ms cubic-bezier(0.23, 1, 0.32, 1),
+        height 750ms 1000ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.nav ul {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 6;
+    text-align: center;
+    transform: translateY(-50%);
+    list-style: none;
+}
+
+.nav ul li {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+    list-style: none;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px);
+    transition: all 250ms linear;
+}
+
+.nav ul li:nth-child(1) {
+    transition-delay: 300ms;
+}
+
+.nav ul li:nth-child(2) {
+    transition-delay: 250ms;
+}
+
+.nav ul li:nth-child(3) {
+    transition-delay: 200ms;
+}
+
+.nav ul li:nth-child(4) {
+    transition-delay: 150ms;
+}
+
+.nav ul li:nth-child(5) {
+    transition-delay: 100ms;
+}
+
+.nav ul li:nth-child(6) {
+    transition-delay: 50ms;
+}
+
+.nav ul li a {
+    font-family: 'Work Sans';
+    font-size: 9vh;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 800;
+    display: inline-block;
+    position: relative;
+    color: #ececee;
+    transition: all 250ms linear;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    text-decoration: none;
+    color: #a2a2a2;
+}
+
+.nav ul li a:after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    content: '';
+    height: 2vh;
+    margin-top: -1vh;
+    width: 0;
+    left: 0;
+    background-color: #353746;
+    opacity: 0.8;
+    transition: width 250ms linear;
+}
+
+.nav ul li a:hover:after {
+    width: 100%;
+}
+
+
+.menu-icon:checked~.nav ul li {
+    pointer-events: auto;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 350ms ease,
+        transform 250ms ease;
+}
+
+.menu-icon:checked~.nav ul li:nth-child(1) {
+    transition-delay: 1400ms;
+}
+
+.menu-icon:checked~.nav ul li:nth-child(2) {
+    transition-delay: 1480ms;
+}
+
+.menu-icon:checked~.nav ul li:nth-child(3) {
+    transition-delay: 1560ms;
+}
+
+.menu-icon:checked~.nav ul li:nth-child(4) {
+    transition-delay: 1640ms;
+}
+
+.menu-icon:checked~.nav ul li:nth-child(5) {
+    transition-delay: 1720ms;
+}
+
+.menu-icon:checked~.nav ul li:nth-child(6) {
+    transition-delay: 1800ms;
+}
+
+
